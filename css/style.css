@@ -66,3 +66,17 @@ body {
     color: #eb6a6c;
 
 }
+
+@media(max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .tab-content {
+        padding: 0 15px;
+    }
+
+    .tab-content h1 {
+        margin-top: 0;
+    }
+}
